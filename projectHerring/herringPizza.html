@@ -6,16 +6,16 @@
     <link href="main.css" rel="stylesheet" />
     <script src="../angular.min.js"></script>
   </head>
-  <body>
+  <body ng-app="PizzaPlanetApp">
     <div class="header">
       <h1><span>Pizza</span><span>Planet</span></h1>
     </div>
 
-    <div class="main">
+    <div ng-controller="MainController" class="main">
       <div class="container">
         <h1>Specials for {{ today | date }}</h1>
         
-        <h2>Appetizers</h2>
+        <h2 ng-repeat="appetizer in appetizers">Appetizers</h2>
         <div class="appetizers row">
           <div class="item col-md-9">
             <h3 class="name"> </h3>
