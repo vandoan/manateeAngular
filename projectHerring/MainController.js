@@ -36,4 +36,22 @@ $scope.mains = [
     price: 9.95,
   },
 ];
+
+$scope.extras = [
+  {
+    name: 'Rolls',
+    description: "warm and toasty",
+    price: 3.95
+  },
+  {
+    name: "french fries",
+    description: "the classiest",
+    price: 4.95,
+  },
+  {
+    name: "onion rings",
+    description: "put a ring on it",
+    price: 4.95,
+  },
+];
 }]);

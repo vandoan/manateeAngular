@@ -38,6 +38,17 @@
           </div>
         </div>
 
+            <h2>Extras</h2>
+        <div ng-repeat="extra in extras" class="appetizers row">
+          <div class="item col-md-9">
+            <h3 class="name">{{ extra.name }}</h3>
+            <p class="description">{{ extra.description }} </p>
+          </div>
+          <div class="price col-md-3">
+            <p class="price"> {{ extra.price | currency }}</p>
+          </div>
+        </div>
+
       </div>
     </div>
 
