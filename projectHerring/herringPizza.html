@@ -22,7 +22,19 @@
             <p class="description">{{ appetizer.description }} </p>
           </div>
           <div class="price col-md-3">
-            <p class="price"> {{ appetizer.price }}</p>
+            <p class="price"> {{ appetizer.price | currency  }}</p>
+          </div>
+        </div>
+
+
+        <h2>Main</h2>
+        <div ng-repeat="main in mains" class="appetizers row">
+          <div class="item col-md-9">
+            <h3 class="name">{{ main.name }}</h3>
+            <p class="description">{{ main.description }} </p>
+          </div>
+          <div class="price col-md-3">
+            <p class="price"> {{ main.price | currency }}</p>
           </div>
         </div>
 

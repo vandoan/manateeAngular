@@ -19,4 +19,21 @@ app.controller('MainController', ['$scope', function($scope) {
     },
   ];
 
+$scope.mains = [
+  {
+    name: 'Pizza Pie',
+    description: "the best in the city",
+    price: 8.95
+  },
+  {
+    name: "spaghetti",
+    description: "a Lady and the Tramp take",
+    price: 12.95,
+  },
+  {
+    name: "antipasta",
+    description: "not your regular pasta",
+    price: 9.95,
+  },
+];
 }]);
