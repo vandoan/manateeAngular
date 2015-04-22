@@ -11,7 +11,7 @@ app.controller('MainController', ['$scope', function($scope) {
       count: 15
     },
     {
-      icon: 'img/pullup.jpg',
+      icon: 'img/stepup.jpg',
       name: 'Pullups',
       count: 10
     },
